@@ -25,7 +25,7 @@ One destination to get all information of SuperHeroes. A static website which fe
 
     *It also contains add to favourites and remove from favourite button.
 
-    (/images/profile.JPG)
+   ![Homepage](/images/profile.JPG)
 
 *Favourites
     *It contains all the selected favourite superhero.
