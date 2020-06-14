@@ -18,7 +18,7 @@ https://superheroapi.com/index.html
 
     *On clicking on name of Superhero you redirect to his profile page where you can find all information related to him. 
 
-   ![Homepage](/images/index.jpg)
+   ![Homepage](/images/index.JPG)
 
 *SuperHero Profile
 
