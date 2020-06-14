@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero | Profile</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/superheroProfile.css">
+</head>
+<body>
+    <!-- ---- Header/Navigation Bar ---- -->
+    <div class="header">
+        <div class="title">
+            <span id="one">
+                <span id="two">Super</span>Hero
+                <span id="three">Profile</span>
+            </span>
+        </div>
+        <div class="navigation">
+            <a href="./index.html" id="fav">Home</a>
+            <a href="./favourites.html" id="fav">Favourites</a>
+            <a href="#">
+                <img src="./images/git.png">
+            </a>
+        </div>
+    </div>
+
+    <!-- ---- to display loding while fetching API ---- -->
+    <div class="loader"></div>
+
+     <!-- ---- display superHero profile ---- -->
+    <div class="superHero-details">
+        <!-- <div class="error-inFinding-Hero"></div> -->
+        <!-- <div class="left">
+            <img src="./images/bats.jpg" >
+            <button class="btn add-to-fav">Add to favourites</button>
+            <button class="btn remove-from-fav">Remove from favourites</button>
+        </div>
+
+        <div class="right">
+            <div class="bio">
+                <h2 class="bio-title">Biography</h2>
+                <h3>Name: <span>Batman</span> </h3>
+                <h3>Full Name: <span>Batman</span> </h3>
+                <h3>Alter-Egos: <span>No alter egos found</span> </h3>
+                <h3>Place-of-Birth: <span>Crest Hill, Bristol Township; Gotham County</span> </h3>
+                <h3>First-Appearance: <span>Detective Comics #27</span> </h3>
+                <h3>Publisher: <span>DC Comics</span> </h3>
+                <h3>Alignment: <span>good</span> </h3>
+            </div>
+
+            <div class="bio">
+                <h2 class="bio-title">Powerstats</h2>
+                <h3>Intelligence: <span>100</span> </h3>
+                <h3>Strength: <span>100</span> </h3>
+                <h3>Speed: <span>100</span> </h3>
+                <h3>Durability: <span>100y</span> </h3>
+                <h3>Power: <span>100</span> </h3>
+                <h3>Combat: <span>100</span> </h3>
+            </div>
+
+            <div class="bio">
+                <h2 class="bio-title">Appearance</h2>
+                <h3>Gender: <span>Male</span> </h3>
+                <h3>Race: <span>Human</span> </h3>
+                <h3>Height: <span>188 cm</span> </h3>
+                <h3>Weigh: <span>95 kg</span> </h3>
+                <h3>Eye-color: <span>blue</span> </h3>
+                <h3>Hair-color: <span>black</span> </h3>
+            </div>
+
+            <div class="bio">
+                <h2 class="bio-title">Work</h2>
+                <h3>Occupation: <span>Businessman</span> </h3>
+                <h3>Base: <span>Batcave, Stately Wayne Manor, Gotham City; Hall of Justice,
+                     Justice League Watchtower</span> </h3>
+            </div>
+        </div> -->
+
+    </div>
+
+    <!-- ----- to displat notification ---- -->
+    <div id="toast"></div>
+
+    
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/superheroProfile.js"></script>
+    
+    <script>
+        profile.init();
+    </script>
+</body>
+</html>

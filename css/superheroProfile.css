@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+.superHero-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+/* ---- if error comes ---- */
+.error-inFinding-Hero{
+    height: 30px;
+    width: auto;
+    background-color: red;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+/* ---- left screen ---- */
+.left{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    width: 300px;
+    /* border: 1px solid black; */
+}
+.left img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.left .btn{
+    width: 200px;
+}
+
+/* ---- right screen ---- */
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    /* justify-content: space-around; */
+    /* margin-bottom: 20px; */
+    /* width: 700px; */
+    /* border: 1px solid black; */
+}
+
+.bio {
+    /* border: 2px solid black; */
+    padding: 5px 5px 5px 5px; 
+    box-shadow: 10px 10px 5px  darkgray;
+    width: 70%;
+    border-radius: 10px;
+}
+.bio-title{
+    font-size: 2rem;
+    /* color: aqua; */
+    font-family: 'Aladin';
+    margin-bottom: 5px;
+}
+.bio h3{
+    font-family: 'Roboto';
+    padding: 2px 2px 2px 2px;
+    color: #ec746e;
+}
+.bio h3 span{
+    color: #1899a7;
+}
+.margin{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

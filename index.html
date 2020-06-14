@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero Arena</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <!-- ---- Header/Navigation Bar ---- -->
+    <div class="header">
+        <div class="title">
+            <span id="one">
+                <span id="two">Super</span>Hero
+                <span id="three">Arena</span>
+            </span>
+        </div>
+        <div class="navigation">
+            <a href="./favourites.html" id="fav">Favourites</a>
+            <a href="#">
+                <img src="./images/git.png">
+            </a>
+        </div>
+    </div>
+
+    <!-- ---- Main Section ---- -->
+    <main class="main">
+        <div id="input">
+            <input type="search" id="search" placeholder="Search a Superhero.." autocomplete="off">
+            <!-- <input type="submit" id="submit" placeholder="Submit"> -->
+        </div>
+
+         <!-- ---- to display loding while fetching API ---- -->
+        <div class="loader"></div>
+
+        <ul id="search-result-list">
+            <!-- <li class="search-result">
+                <div class="search-left">
+                    <img src="./images/bats.jpg" alt="" />
+                </div>
+                <div class="search-right">
+                    <a href="./superHero.html">
+                        <div class="name">Batman</div>
+                    </a>
+                    <div class="full-name">Terry McGinnis</div>
+
+                    <div class="address">Gotham City, 25th Century</div>
+                    <button class="btn add-to-fav">Add to favourites</button>
+                    <button class="btn remove-from-fav">Remove from favourites</button>
+                </div>
+            </li> -->
+        </ul>
+
+    </main>
+
+    <!-- ----- to displat notification ---- -->
+    <div id="toast"></div>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+
+    <script>
+        Main.init();
+    </script>
+</body>
+</html>
