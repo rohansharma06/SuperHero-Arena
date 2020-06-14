@@ -3,11 +3,11 @@
 One destination to get all information of SuperHeroes. A static website which fetch superheroes information from an api. 
  
 
- (https://rohansharma06.github.io/SuperHero-Arena/)
+ https://rohansharma06.github.io/SuperHero-Arena/
  
  ## API
  
-(https://superheroapi.com/index.html)
+https://superheroapi.com/index.html
 
 ## Functionality
  *HomePage
@@ -18,20 +18,22 @@ One destination to get all information of SuperHeroes. A static website which fe
 
     *On clicking on name of Superhero you redirect to his profile page where you can find all information related to him. 
 
-    ![Homepage](/images/index.jpg)
+   ![Homepage](/images/index.jpg)
 
 *SuperHero Profile
+
     *All information related to select superhero id display here.
 
     *It also contains add to favourites and remove from favourite button.
 
-   ![Homepage](/images/profile.JPG)
+   ![Profile](/images/profile.JPG)
 
 *Favourites
+
     *It contains all the selected favourite superhero.
 
     *It contains remove from favourite button.
 
-    ![Favourite](/images/favourite.JPG)
+   ![Favourite](/images/favourite.JPG)
 
 
